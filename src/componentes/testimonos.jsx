@@ -1,7 +1,7 @@
 import React from "react";
 import '../css/testimonios.css'
 
-
+//Hago el modulo testimonio con una card qur muestra imagen nombre y testimonio de la persona
 export function Testimonios(props) {
   return (
     <div className='contenedor-test'>

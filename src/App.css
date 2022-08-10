@@ -33,3 +33,69 @@ h1{
     flex-wrap: wrap;
     justify-content: center;
 }
+
+
+header{
+    background: #0a0a23;
+    min-width: 100vw;
+    height: 40px;
+    position: fixed;
+}
+
+nav{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+    padding: 0 40px;
+}
+
+.cont-input{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+input{
+    color: #f5f6f7;
+    font-size: 1em;
+    font-weight: 500;
+    height: 70%;
+    width: 500px;
+    background-color: #3b3b4f;
+    z-index: 100;
+    padding: 0 30px;
+}
+
+.cont-log{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.logoFre{
+    height: 24px;
+    margin-left: calc(-300px - 5px);
+}
+
+
+.cont-button{
+    display: flex;
+    height: 100%;
+    gap: 5px;
+}
+.butt-menu{
+    display: flex;
+    align-items: center;
+    background-color: #0a0a23;
+    height: 75%;
+    padding: 5px 15px;
+    font-size: 1.1em;
+    color: #fff;
+    border-width: 3px;
+}
+
+.butt-portafolio{
+    padding: 10px;
+    height: 75%;
+}

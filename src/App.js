@@ -5,6 +5,20 @@ import {Testimonios} from './componentes/testimonos';
 export function App() {
   return (
     <div className="App">
+      <header>
+        <nav>
+          <div className='cont-input'>
+            <input type="text" placeholder='Buscar+200 tutoriales'/>
+          </div>
+          <div className='cont-log'>
+            <img className='logoFre' src={require(`./img/code.jpg`)} />
+          </div>
+          <div className='cont-button'>
+            <button className='butt-menu'>Menu</button>
+            <button className='butt-portafolio'></button>
+          </div>
+        </nav>
+      </header>
       <h1>Esto es lo que dicen nuestros alumnos sobre freeCodeCamp:</h1>
       <Testimonios 
       nombre='Shawn Wang'
